@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ejercicio 1</title>
+<style media="screen" type="text/css">
+
+
+  /* <!--ESPAÑA--> */
+
+.amarillo {
+  background-color: yellow;
+  height:200px;
+  z-index: 0;
+  margin-top: 16%;
+
+}
+
+.españa {
+  height: 400px;
+  width: 600px;
+  background-color: red;
+  border: 1px solid grey;
+  z-index: -1;
+  position: relative;
+  display: inline-block;
+}
+
+  /* <!--DINAMARCA--> */
+
+.dinamarca {
+  height: 400px;
+  width: 600px;
+  border: 1px solid grey;
+  background-color: red;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+.blanco-vertical {
+  width: 50px;
+  height: 100%;
+  background-color: white;
+  margin-left: 200px;
+}
+
+.blanco-horizontal {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  margin-top: -225px;
+
+}
+
+  /* <!--EMIRATOS--> */
+
+.emiratos {
+  display: inline-block;
+  margin-top: 100px;
+  height: 400px;
+  width: 600px;
+  border: 1px solid grey;
+  background-color: green;
+  position: relative;
+  z-index: -2
+
+}
+
+.blanco {
+  width: 100%;
+  height: 133px;
+  background-color: white;
+  position: absolute; bottom: 133px;
+z-index: -1
+}
+
+.negro {
+    width: 100%;
+    height: 133px;
+    background-color: black;
+    position: absolute; bottom: 0px;
+    z-index: -1
+  }
+
+.rojo {
+  width: 133px;
+  height: 100%;
+  background-color: red;
+  position: absolute;
+  z-index: 0
+}
+
+  /* <!--JAPON--> */
+
+.japon {
+  height: 400px;
+  width: 600px;
+  border: 1px solid grey;
+  background-color: white;
+  margin-left: 100px;
+  position: relative;
+  display: inline-block;
+}
+
+.circulo-rojo {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  border-radius: 100px;
+  position: absolute; left: 200px; top: 100px;
+}
+
+</style>
+
+</head>
+<body>
+  <!--ESPAÑA-->
+  <div class="españa">
+    <div class="amarillo">
+    </div>
+  </div>
+  <!--DINAMARCA-->
+  <div class="dinamarca">
+    <div class="blanco-vertical">
+    </div>
+    <div class="blanco-horizontal">
+    </div>
+  </div>
+
+  <!--EMIRATOS-->
+  <div class="emiratos">
+    <div class="rojo">
+    </div>
+    <div class="blanco">
+    </div>
+    <div class="negro">
+    </div>
+  </div>
+  <!--JAPON-->
+
+  <div class="japon">
+    <div class="circulo-rojo">
+    </div>
+  </div>
+
+
+
+</body>
+
+</html>
